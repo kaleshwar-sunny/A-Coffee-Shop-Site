@@ -1,0 +1,59 @@
+body{
+    padding-bottom: 20px;
+    color: #111;
+/*    border: 2px solid blue; */
+}
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+/*    border: 2px solid green;*/
+}
+.navbar-wrapper .container,.navbar{
+    width: auto;
+}
+.navbar-wrapper .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+/*    border: 2px solid red;*/
+}
+.carousel .item{
+    height: 500px;
+    background-color: #777;
+/*    border: 2px solid yellow;*/
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 500px;
+    min-width:100%;
+    top: 0;
+    left: 0;
+}
+.team .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team p{
+    color: rgba(50,50,50,0.7);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.col-content{
+    padding-left: 50px;
+    padding-top: 120px;
+    text-align: center;
+}
+.content{
+    margin-bottom: 30px;
+}
+.parallax-window{
+    height: 500px;
+    margin-bottom: 30px;
+}
